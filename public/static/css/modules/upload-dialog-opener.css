@@ -1,0 +1,20 @@
+.upload-dialog-opener {
+  position: fixed;
+  right: 60px;
+  bottom: 60px;
+  width: 60px;
+  height: 60px;
+  border: 2px solid var(--color-accent);
+  border-radius: 50%;
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--color-text-main);
+  background-color: var(--color-accent);
+  appearance: none;
+  cursor: pointer;
+  transition: border-color .2s;
+}
+
+.upload-dialog-opener:hover {
+  border-color: var(--color-text-main);
+}
